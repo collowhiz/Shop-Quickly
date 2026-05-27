@@ -4,7 +4,7 @@ import React from 'react';
 import Hero from '@/components/Hero/Hero';
 import FeatureGrid from '@/components/Features/FeatureGrid';
 import SmartFridge from '@/components/Hardware/SmartFridge';
-import Testimonials from '@/components/Blog/BlogCard';
+import Testimonials from '@/components/Blog/Testimonials';
 import BlogSection from '@/components/Blog/BlogSection';
 import MailingList from '@/components/MailingList/MailingList';
 

@@ -11,7 +11,7 @@ export const BrandHeading = ({
   level = 1,
   className = "",
 }: BrandHeadingProps) => {
-  const Tag = `h${level}` as keyof JSX.IntrinsicElements;
+  const Tag = `h${level}` as React.ElementType;
   const baseStyles = "font-bold text-brand-black tracking-tight uppercase";
   const sizeStyles = {
     1: "text-5xl md:text-6xl",
